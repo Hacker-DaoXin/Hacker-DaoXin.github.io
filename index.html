@@ -506,14 +506,14 @@ $(function () {
 $(function () {
     new APlayer({
         container: document.getElementById('aplayer'),
-        fixed: 'true' === 'true',
-        autoplay: 'false' === 'true',
-        theme: '#42b983',
+        fixed: 'false' === 'true',
+        autoplay: 'true' === 'true',
+        theme: '#542674',
         loop: 'all',
-        order: 'random',
+        order: 'list',
         preload: 'auto',
         volume: Number('0.7'),
-        listFolded: 'true' === 'true',
+        listFolded: 'false' === 'true',
         listMaxHeight: '',
         audio: JSON.parse('[{"name":"Rock You","artist":"Queen","url":"http://www.groovydomain.com/gallery/music/ORIGINAL/Queen/Greatest%20Hits%20(Parlophone)/16%20We%20Will%20Rock%20You.mp3"},{"url":"http://www.groovydomain.com/gallery/music/ORIGINAL/Queen/Greatest%20Hits%20(Parlophone)/02%20Another%20One%20Bites%20the%20Dust.mp3"},{"name":"Hey Jude","artist":"Beatles","url":"https://raw.githubusercontent.com/Hacker-DaoXin/Musics/master/The%20Beatles%20-%20Hey%20Jude.mp3"}]')
     });
